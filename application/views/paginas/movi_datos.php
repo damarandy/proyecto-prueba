@@ -98,7 +98,7 @@ function dataForm($data) {
 
           <div class="form-group">
           <label class="col-form-label"><span class="error"> </span>PENDIENTE DEL MES ANTERIOR</label>
-          <input name="pmesant" type="number" class="form-control" value="<?php if (!empty($_POST["pmesant"])) {
+          <input name="pmesant" type="number" STYLE="border:double;background:#AED6F1;color:black"class="form-control" value="<?php if (!empty($_POST["pmesant"])) {
            echo $Pmesant; }else {echo "";}?>">
           <span class="error invalid-feedback"> <?php echo $PmesantErr;?></span>
           </div>
@@ -106,21 +106,21 @@ function dataForm($data) {
          
          <div class="form-group">
           <label class="col-form-label"><span class="error"></span>INGRESOS</label>
-          <input name="ingresos" type="number" class="form-control" value="<?php if (!empty($_POST["ingresos"])) {
+          <input name="ingresos" type="number" STYLE="border:double;background:#AED6F1;color:black"class="form-control" value="<?php if (!empty($_POST["ingresos"])) {
            echo $Ingresos; }else {echo "";}?>">
           <span class="error invalid-feedback"> <?php echo $IngresosErr;?></span>
           </div>
 
           <div class="form-group">
           <label class="col-form-label"><span class="error"></span>SENTENCIAS</label>
-          <input name="sentencias" type="number" class="form-control" value="<?php if (!empty($_POST["sentencias"])) {
+          <input name="sentencias" type="number" STYLE="border:double;background:#AED6F1;color:black" class="form-control" value="<?php if (!empty($_POST["sentencias"])) {
            echo $Sentencias; }else {echo "";}?>">
           <span class="error invalid-feedback"> <?php echo $SentenciasErr;?></span>
           </div>
 
           <div class="form-group">
           <label class="col-form-label"><span class="error"></span>AUTOS</label>
-          <input name="autos" type="number" class="form-control" value="<?php if (!empty($_POST["autos"])) {
+          <input name="autos" type="number" STYLE="border:double;background:#AED6F1;color:black"class="form-control" value="<?php if (!empty($_POST["autos"])) {
            echo $Autos; }else {echo "";}?>">
           <span class="error invalid-feedback"> <?php echo $AutosErr;?></span>
           </div>

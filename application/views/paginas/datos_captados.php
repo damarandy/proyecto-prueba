@@ -1,5 +1,6 @@
   
-   <Form>
+  <link href="estylos.css">
+  <Form>
     <table id="data_table" class="table table-striped">
         <thead>
             <tr>

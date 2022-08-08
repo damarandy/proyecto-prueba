@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <link rel="stylesheet" type="text/css" href="styles.css"/> 
      <style>
      select { width: 200px;}
       div> { 
@@ -19,7 +19,7 @@
       background-color: #334f5b; 
        }
     </style>
- <h1><b><div class="bg-primary" align="center"; style="color:black;">ORGANO JUDICIAL<p></p>  SEGÚN TIPO DE MOVIMIENTO</div></b></h1>
+ <h1><b><div class="bg-primary col-sm-12" align="center"; style="color:write;">ORGANO JUDICIAL<p></p>  SEGÚN TIPO DE MOVIMIENTO</div></b></h1>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript"scr="funcion.js"></script>  
  </head>

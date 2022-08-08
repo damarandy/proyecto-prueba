@@ -22,12 +22,13 @@ class nuevojuzgados extends CI_Controller {
    }
    public function tipomovi(){
      $this ->load ->view ('plantilla/encabezado1');
-     $this->load->view('paginas/movi_datos');
+     $this->load->view('paginas/movi1_datos1');
      $this ->load ->view ('plantilla/piee');
-
+     
    }
     
   public function datos(){
+
      $this ->load ->view ('plantilla/encabezado2');
      $this->load->view('paginas/datos_captados');
      $this ->load ->view ('plantilla/piee');
